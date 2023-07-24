@@ -1,0 +1,26 @@
+Web sitesi html, javascript ve angularJS framework'u kullanılarak oluşturulmuştur. 
+ilk başta yerleştirilen "   (function (i, s, o, g, r, a, m) " ile başlayan fonksiyon 
+google analytics'in web sitesi trafiğini izleyebilmesi için yerleştirilmiştir.
+    function openMenu() fonksiyonu bir side menu açmak için kullanılmıştır.
+  function closeMenu()  fonksiyonu ise aynı menüyü kapatmak için yerleştirilmiştir.
+ng-cloak:
+search area class'ı ng-cloak kullanılarak oluşturulmuştur bu sayede sayfa tam olarak yükleninceye kadar 
+bu kısım içinde yer alan scriptler gösterilmez 
+ng-model:
+search area'nın alt kısımlarında yer alan başlıklarda ng-model kullanılmış ve bu sayede inputlar 
+belirlenen modele bağlanmıştır. bu işlemle birlikte input değerine göre ng-model'deki veri değişecek 
+ve kullanıcıya yeni veri gösterilecektir.
+ng-class:
+kullanılan ng-class sayesinde dinamik olarak css class'ı eklenmiş olur bu sayede belirli koşullar
+sağlandığı sürece class gösterilir.
+ng-change:
+aynı şekilde, kullanılan ng-change ile birlikte kullanıcı tarafından değiştirildiği sürece kontrolün 
+yeniden çalışacağını ifade eder.
+ng-repeat:
+ng-repeat tekrarlanılabilir içerikleri listelemek ve yinelenen bir şekilde göstermek için kullanılır.
+ng-show:
+html nesnelerini göstermek yada gizlemek için kullanılır.
+ng-if:
+eğer if sonucu olumsuz döndürülürse ilgili nesneyi silmek için konuşmıştır.
+ng-mouseover ve ng-mouseleave:
+video slide'ını başlatmak ve bitirmek için kullanılmıştır
